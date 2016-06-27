@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FilterLabel.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    FilterLabel *label = [[FilterLabel alloc] initWithFrame:CGRectMake(0, 100, CGRectGetWidth(self.view.frame), 60)];
+    label.backgroundColor = [UIColor lightGrayColor];
+    label.text = @"x5生出于1987年01月20日,河北唐山人。目前就职于宜信宜人贷，担任iOS高级开发工程师。";
+    [self.view addSubview:label];
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 @end

@@ -15,6 +15,7 @@
 		1FF4B7491D212E78004B415C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF4B7471D212E78004B415C /* LaunchScreen.storyboard */; };
 		1FF4B7541D212E78004B415C /* FilterLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF4B7531D212E78004B415C /* FilterLabelDemoTests.m */; };
 		1FF4B75F1D212E78004B415C /* FilterLabelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF4B75E1D212E78004B415C /* FilterLabelDemoUITests.m */; };
+		1FF4B76E1D212E87004B415C /* FilterLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF4B76D1D212E87004B415C /* FilterLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1FF4B75A1D212E78004B415C /* FilterLabelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilterLabelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF4B75E1D212E78004B415C /* FilterLabelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterLabelDemoUITests.m; sourceTree = "<group>"; };
 		1FF4B7601D212E78004B415C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF4B76C1D212E87004B415C /* FilterLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterLabel.h; sourceTree = "<group>"; };
+		1FF4B76D1D212E87004B415C /* FilterLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1FF4B73D1D212E77004B415C /* AppDelegate.m */,
 				1FF4B73F1D212E77004B415C /* ViewController.h */,
 				1FF4B7401D212E78004B415C /* ViewController.m */,
+				1FF4B76C1D212E87004B415C /* FilterLabel.h */,
+				1FF4B76D1D212E87004B415C /* FilterLabel.m */,
 				1FF4B7421D212E78004B415C /* Main.storyboard */,
 				1FF4B7451D212E78004B415C /* Assets.xcassets */,
 				1FF4B7471D212E78004B415C /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				1FF4B7411D212E78004B415C /* ViewController.m in Sources */,
 				1FF4B73E1D212E77004B415C /* AppDelegate.m in Sources */,
+				1FF4B76E1D212E87004B415C /* FilterLabel.m in Sources */,
 				1FF4B73B1D212E77004B415C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
